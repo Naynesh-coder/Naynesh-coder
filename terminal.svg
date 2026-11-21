@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" role="img" aria-labelledby="title desc">
+  <title id="title">Naynesh Zade - Developer terminal profile</title>
+  <desc id="desc">A dark terminal-style profile card featuring an animated blinking pixel panda, developer information, featured projects and technology stack.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#e07a5f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    text{font-family:'SF Mono','Menlo','Consolas','DejaVu Sans Mono','Courier New',monospace;font-size:15px;fill:#e6e6e6}
+    .accent{fill:#e07a5f}.dim{fill:#8a8a8a}.center{text-anchor:middle}
+    .cursor{animation:blink 1s steps(1) infinite}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  </style>
+
+  <!-- Terminal window -->
+  <rect x="20" y="20" width="820" height="430" rx="10" fill="#1e1e1e"/>
+  <path d="M20 30a10 10 0 0 1 10-10h800a10 10 0 0 1 10 10v18H20z" fill="#3a3a3a"/>
+  <circle cx="44" cy="34" r="6" fill="#e0614f"/>
+  <circle cx="64" cy="34" r="6" fill="#f0b73a"/>
+  <circle cx="84" cy="34" r="6" fill="#5cc26a"/>
+
+  <!-- Main panels -->
+  <rect x="40" y="70" width="780" height="245" fill="none" stroke="#e07a5f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="410" y1="70" x2="410" y2="315" stroke="#e07a5f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="410" y1="190" x2="820" y2="190" stroke="#e07a5f" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Terminal title -->
+  <rect x="60" y="60" width="175" height="20" fill="#1e1e1e"/>
+  <text x="70" y="75" class="accent">naynesh</text>
+  <text x="148" y="75" class="dim">v1.0.0</text>
+
+  <!-- Left panel -->
+  <text x="225" y="115" class="center" style="font-weight:bold">Welcome to my workspace!</text>
+  <circle cx="225" cy="181" r="83" fill="url(#glow)"/>
+
+  <!-- User-supplied pixel panda, with blinking pupils -->
+  <g transform="translate(150 132) scale(0.79 0.79)" shape-rendering="crispEdges">
+    <g stroke="#b5b5b5" stroke-width="1.5" stroke-linecap="square">
+      <line x1="-24" y1="54" x2="0" y2="58"/>
+      <line x1="-24" y1="62" x2="0" y2="60"/>
+    </g>
+    <rect x="143" y="26" width="13" height="26" fill="#f2f2f2"/>
+    <rect x="0" y="13" width="143" height="65" fill="#f2f2f2"/>
+    <rect x="0" y="65" width="143" height="13" fill="#d9d9d9"/>
+    <g fill="#0d0d0d" stroke="#5a5a5a" stroke-width="1">
+      <rect x="0" y="0" width="26" height="13"/>
+      <rect x="117" y="0" width="26" height="13"/>
+      <rect x="26" y="26" width="26" height="26"/>
+      <rect x="91" y="26" width="26" height="26"/>
+      <rect x="26" y="78" width="26" height="13"/>
+      <rect x="91" y="78" width="26" height="13"/>
+    </g>
+    <!-- Both white pupils briefly close every 4 seconds -->
+    <g fill="#ffffff">
+      <rect x="40" y="34" width="7" height="7">
+        <animate attributeName="height" values="7;7;1;7;7" keyTimes="0;0.90;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="34;34;37;34;34" keyTimes="0;0.90;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="96" y="34" width="7" height="7">
+        <animate attributeName="height" values="7;7;1;7;7" keyTimes="0;0.90;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="34;34;37;34;34" keyTimes="0;0.90;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <rect x="65" y="55" width="13" height="7" fill="#0d0d0d"/>
+    <rect x="13" y="52" width="13" height="7" fill="#f4a7b9"/>
+    <rect x="117" y="52" width="13" height="7" fill="#f4a7b9"/>
+  </g>
+
+  <text x="225" y="250" class="center dim">Full-Stack • Cloud • DevOps</text>
+  <text x="225" y="275" class="center dim">~/naynesh-coder/projects</text>
+  <text x="225" y="298" class="center dim" style="font-size:13px">Wardha, Maharashtra, India</text>
+
+  <!-- Featured projects -->
+  <text x="430" y="98" class="accent">Featured projects</text>
+  <text x="430" y="122"><tspan class="dim">js   </tspan>BUYNEST</text>
+  <text x="430" y="144"><tspan class="dim">js   </tspan>SkyMart</text>
+  <text x="430" y="166"><tspan class="dim">ts   </tspan>Ease UI</text>
+  <text x="430" y="184" class="dim">... more in my repositories</text>
+
+  <!-- Technology stack -->
+  <text x="430" y="218" class="accent">Tech stack</text>
+  <text x="430" y="242">Frontend: HTML, CSS, JavaScript, React</text>
+  <text x="430" y="264">Backend: Node.js, Express, MongoDB</text>
+  <text x="430" y="286">Cloud: AWS • DevOps • Generative AI</text>
+
+  <!-- Terminal prompt -->
+  <line x1="40" y1="350" x2="820" y2="350" stroke="#444" stroke-width="1"/>
+  <text x="45" y="390" class="dim">&gt;</text>
+  <text x="63" y="390">hello world, let's build something cool</text>
+  <rect x="414" y="376" width="9" height="18" fill="#e07a5f" class="cursor"/>
+  <text x="45" y="428" class="dim" style="font-size:13px">$ keep learning • keep building</text>
+</svg>
