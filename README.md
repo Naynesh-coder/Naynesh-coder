@@ -9,9 +9,9 @@
 
 # Hey, I'm Naynesh Zade 👋
 
-### Software Developer | Full-Stack Development | AWS Cloud | DevOps
+## AI Full-Stack Developer | MERN Stack | AWS Cloud | DevOps | System Design
 
-Building web applications · System Design · Exploring Generative AI
+Building intelligent web applications · Full-Stack Engineering · AI Integration · Cloud & DevOps · System Design
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=E07A5F&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Building+Modern+Web+Applications;Exploring+AWS+%26+DevOps;Learning+Generative+AI" alt="Typing animation introducing my developer interests" />
 
@@ -23,15 +23,17 @@ Building web applications · System Design · Exploring Generative AI
 
 ## 💫 About Me
 
-Software Developer and AWS Cloud Engineer with a B.Tech in Computer Science and Engineering (2026), specializing in building and deploying full-stack applications. I combine MERN stack skills (React.js, Node.js, Express.js, MongoDB) with hands-on AWS experience to build solutions from interface to infrastructure.
+AI Full-Stack Developer with a B.Tech in Computer Science and Engineering (2026), focused on building modern, scalable, and intelligent web applications. I combine full-stack development expertise (React.js, Node.js, Express.js, MongoDB) with AI integration and cloud technologies to develop applications that connect frontend experiences, backend systems, and intelligent AI capabilities.
 
-Through my AWS Cloud internship, I gained practical experience deploying applications, managing EC2 and S3 resources, and working with secure access controls using IAM. I approach development with performance, security, and maintainability in mind.
+Through my AWS Cloud internship, I gained hands-on experience deploying applications, managing EC2 and S3 resources, and implementing secure access controls using IAM. I am passionate about integrating Generative AI, Large Language Models (LLMs), and AI-powered APIs into full-stack applications to create smarter and more efficient digital solutions.
 
-I’m passionate about connecting modern web development with cloud infrastructure and continuously expanding my skills in DevOps. As a recent graduate, I bring strong fundamentals, a fast-learning mindset, and a drive to contribute to engineering teams.
+I continuously explore AI Engineering, System Design, Cloud Computing, and DevOps to strengthen my ability to build production-ready applications. My goal is to bridge the gap between traditional full-stack development and AI-powered software engineering.
 
-**Core Skills:** React.js · JavaScript (ES6+) · Node.js · Express.js · MongoDB · REST APIs · AWS (EC2, S3, IAM) · Tailwind CSS · Git & GitHub
+**Core Skills:** JavaScript (ES6+) · React.js · Node.js · Express.js · MongoDB · REST APIs · Generative AI · LLM Integration · AI APIs · AWS (EC2, S3, IAM) · Tailwind CSS · Git & GitHub
 
-**Open to:** Software Developer, Full-Stack Developer, and Cloud Engineer opportunities.
+**Currently Exploring:** AI Engineering · AI Agents · RAG · Prompt Engineering · System Design · Docker · CI/CD · DevOps
+
+**Open to:** AI Full-Stack Developer · Full-Stack Developer · Software Engineer · AI Product Engineer opportunities.
 
 **Email:** [nayneshzade@gmail.com](mailto:nayneshzade@gmail.com)
 
@@ -112,12 +114,15 @@ Explore my [GitHub repositories](https://github.com/Naynesh-coder?tab=repositori
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Naynesh-coder&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Most used programming languages" />
 </div>
 
-## 🎯 Currently Learning & Improving
+## ## 🎯 Currently Learning & Improving
 
-- Building full-stack applications and backend APIs
-- Practicing Data Structures & Algorithms
-- Learning AWS cloud services and DevOps workflows
-- Exploring system design and Generative AI
+- Building scalable AI-powered full-stack applications
+- Integrating Generative AI, LLMs, and AI APIs into web applications
+- Exploring Retrieval-Augmented Generation (RAG) and AI Agents
+- Strengthening backend development, REST APIs, and database management
+- Practicing Data Structures & Algorithms (DSA)
+- Learning AWS cloud services, Docker, and DevOps workflows
+- Improving System Design and scalable software architecture
 
 ---
 
